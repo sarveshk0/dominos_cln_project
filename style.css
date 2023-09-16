@@ -1,0 +1,226 @@
+*{
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.nav-bar{
+    height: 80px;
+ /* background-color: aqua; */
+ font-size: 15px;
+ display: flex;
+ align-items: center;
+ justify-content:space-evenly;
+}
+
+.logo{
+    margin-right: 10px;
+    height: 50px;
+    width:250px;
+    background-image: url("Logo.png");
+    background-repeat: no-repeat;
+
+}
+.logo-ops{
+    color: #5f88A3;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menu{
+    margin-right: 15px;
+    font-weight: bold;
+}
+.menu:hover{
+    color: #2d8bc9;
+}
+.btn{
+    color: white;
+    width: 148px;
+    height: 45px;
+    border-radius: 3px;
+    background-color: #f3223b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.section{
+    display: flex;
+    background-color: rgb(16, 129, 235);
+    position:sticky; top:40px;
+   
+    
+}
+.section1{
+    padding-top: 150px;
+    padding-left: 130px;
+    height: 300px;
+    color: white;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 10px;
+     
+    
+}
+.para1{
+    padding-top: 50px;
+}
+.para1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn-order{
+    
+    padding-bottom:10px ;
+    width: 400px;
+    height: 60px;
+    font-size: 1.3rem;
+    background-color:#1FB31A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.banner{
+    padding-top: 10px;
+    
+    height: 120px;
+    width: 400px;
+    background-image: url("banner_brand.jpg");
+    cursor: pointer;
+}
+.header-bg{
+    height: 495px;
+    width: 833px;
+    background-image: url("header_bg.png");
+    background-repeat: no-repeat;
+    
+}
+.home
+{ height: 40px;
+    background-color: #d2e8f6;
+    color: #5f88A3;
+    margin-top: 16px;
+    padding-left: 10px;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+h2{
+    color:#2d8bc9 ;
+    font-size: 1.5em;
+    margin-left: 40px;
+}
+.section3{
+    
+    padding-top: 20px;
+    height:200px;
+    width: 75px;
+    display: flex;
+    
+}
+.img{
+    padding-right: 12px;
+}
+.explore{
+    margin-left: 60px;
+    display: flex;
+}
+.our-menu{
+    margin-left: 20px;
+    height: 200px;
+    width: 300px;
+    border: 1px dotted;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.txt{
+    font-size: .8rem;
+    padding-left: 10px;
+}
+.Discover-Pizza{
+    
+  margin-left: 4px;
+    height: 40px;
+    width: 300px;
+    color: red;
+    border: 2px dotted black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.section4{
+    margin-top: 60px;
+    height: 400px;
+    color: #5f88A3;
+    background-color: #F2F5FC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.exclusive-offer{
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.note{
+    margin-top: 40px;
+    margin-left: 20px;
+    color: #2d8bc9;
+}
+.note p{
+    margin-top: 10px;
+    color:rgb(124, 120, 120)
+}
+.btn1{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.section5{
+    margin-top: 20px;
+    height: 400px;
+    background-color: #222E3A;
+    font-size: small;
+    color: white;
+    
+}
+
+#block-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+
+.menu1 a{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.social-media1{
+    margin-bottom: 135px;
+
+
+}
+.Socmd{
+    padding: 20px;
+}
+.copyright{
+    border-top: 1px dotted white;
+    color: #546273;
+    font-size: xx-small;
+    height: 40px;
+    background-color: #222E3A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
